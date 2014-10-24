@@ -1,0 +1,14 @@
+PODS:
+  - MPSkewed (0.1.0)
+
+DEPENDENCIES:
+  - MPSkewed (from `https://github.com/MP0w/MPSkewed.git`)
+
+EXTERNAL SOURCES:
+  MPSkewed:
+    :git: https://github.com/MP0w/MPSkewed.git
+
+SPEC CHECKSUMS:
+  MPSkewed: d63a58385c7b6ea3572fa4940361c816083395f4
+
+COCOAPODS: 0.32.1

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = ":KeyboardViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Slidden.KeyboardView.reloadKeys (Slidden.KeyboardView)() -&gt; ():KeyboardView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "numRows">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WubiKeyboard.FirstViewController.viewDidLoad (WubiKeyboard.FirstViewController)() -&gt; ():FirstViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

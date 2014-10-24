@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1642E71EA9914F949C5B029F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A27C4AC8EE9D45DEA9D04519 /* libPods.a */; };
+		7B0776F219F01BA800410F65 /* KNThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0776F019F01BA800410F65 /* KNThirdViewController.m */; };
+		7B0776F319F01BA800410F65 /* KNThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0776F119F01BA800410F65 /* KNThirdViewController.xib */; };
+		7B0776F719F01CEE00410F65 /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0776F619F01CEE00410F65 /* UIViewController+KNSemiModal.m */; };
+		7B0776F919F01E9600410F65 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0776F819F01E9600410F65 /* QuartzCore.framework */; };
+		7B0776FC19F0243A00410F65 /* background_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0776FA19F0243A00410F65 /* background_01.png */; };
+		7B0776FD19F0243A00410F65 /* background_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0776FB19F0243A00410F65 /* background_01@2x.png */; };
+		7B07770819F0353300410F65 /* KBSkinToolbar_icon_setting_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B07770619F0353300410F65 /* KBSkinToolbar_icon_setting_press@2x.png */; };
+		7B07770919F0353300410F65 /* KBSkinToolbar_icon_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B07770719F0353300410F65 /* KBSkinToolbar_icon_setting@2x.png */; };
+		7B07770E19F0366D00410F65 /* skinTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B07770A19F0366D00410F65 /* skinTab.png */; };
+		7B07770F19F0366D00410F65 /* skinTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B07770B19F0366D00410F65 /* skinTab@2x.png */; };
+		7B07771019F0366D00410F65 /* skinTabSel.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B07770C19F0366D00410F65 /* skinTabSel.png */; };
+		7B07771119F0366D00410F65 /* skinTabSel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B07770D19F0366D00410F65 /* skinTabSel@2x.png */; };
+		7B0DDAB319F3FC0000BFBD65 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0DDAB219F3FC0000BFBD65 /* Icon-60@3x.png */; };
+		7B0DDAB519F3FE7700BFBD65 /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0DDAB419F3FE7700BFBD65 /* disclosure.png */; };
+		7B0DDAB719F4122A00BFBD65 /* 20090223_debee2b995985afbe28cvSeFhhbDgHfB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0DDAB619F4122A00BFBD65 /* 20090223_debee2b995985afbe28cvSeFhhbDgHfB.png */; };
+		7B0DDAB919F4128400BFBD65 /* bg12.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0DDAB819F4128400BFBD65 /* bg12.png */; };
+		7B0DDABD19F4136300BFBD65 /* bg14.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0DDABC19F4136300BFBD65 /* bg14.png */; };
+		7B0F878E19EABBD90020ED55 /* Collection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0F878D19EABBD90020ED55 /* Collection.xib */; };
+		7B0F879019EADA690020ED55 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0F878F19EADA690020ED55 /* Configuration.swift */; };
+		7B2B1BC519CB436E00CD820A /* WubiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B2B1BC419CB436E00CD820A /* WubiView.xib */; };
+		7B2B1BCB19CB481D00CD820A /* WubiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B2B1BCA19CB481D00CD820A /* WubiView.xib */; };
+		7B2B1C0319CB670F00CD820A /* Library_Keyboard_UserDictionary.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7B2B1C0219CB670F00CD820A /* Library_Keyboard_UserDictionary.sqlite */; };
+		7B2B1C0419CB670F00CD820A /* Library_Keyboard_UserDictionary.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7B2B1C0219CB670F00CD820A /* Library_Keyboard_UserDictionary.sqlite */; };
+		7B2B1C0619CB672700CD820A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2B1C0519CB672700CD820A /* libsqlite3.0.dylib */; };
+		7B2B1C0B19CB674500CD820A /* ZeeSQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B1C0A19CB674500CD820A /* ZeeSQLiteHelper.m */; };
+		7B2B1C0C19CB674500CD820A /* ZeeSQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B1C0A19CB674500CD820A /* ZeeSQLiteHelper.m */; };
+		7B2B1C0D19CB680600CD820A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2B1C0519CB672700CD820A /* libsqlite3.0.dylib */; };
+		7B2CDCE219CCA133008BD843 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2CDCE119CCA133008BD843 /* Util.swift */; };
+		7B2CDCE419CCB084008BD843 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B2CDCE319CCB084008BD843 /* CollectionCell.xib */; };
+		7B3C53CE19CDC96100C8BD04 /* recycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B3C53CD19CDC96100C8BD04 /* recycle.png */; };
+		7B3C53D119CDC98800C8BD04 /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B3C53D019CDC98800C8BD04 /* rewind.png */; };
+		7B3C53D319CDCA0900C8BD04 /* sync.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B3C53D219CDCA0900C8BD04 /* sync.png */; };
+		7B5052E919F3CA6F007DB42F /* bg7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5052DE19F3CA6F007DB42F /* bg7.png */; };
+		7B5052EC19F3CA6F007DB42F /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5052E119F3CA6F007DB42F /* bg4.png */; };
+		7B5052EE19F3CA6F007DB42F /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5052E319F3CA6F007DB42F /* bg2.png */; };
+		7B5052EF19F3CA6F007DB42F /* bgfen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5052E419F3CA6F007DB42F /* bgfen1.png */; };
+		7B5052F319F3CC19007DB42F /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5052F219F3CC19007DB42F /* 10.png */; };
+		7B5052F519F3CCF1007DB42F /* bg10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5052F419F3CCF1007DB42F /* bg10.png */; };
+		7B5052F719F3CD62007DB42F /* bg11.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5052F619F3CD62007DB42F /* bg11.png */; };
+		7B54B12A19CF1FD40050DCFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA00CA519CB318C007764DE /* Images.xcassets */; };
+		7B6196CE19CEC506006EE397 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6196CC19CEC506006EE397 /* home.png */; };
+		7B6196CF19CEC506006EE397 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6196CD19CEC506006EE397 /* message.png */; };
+		7B63259619DAF7AB002DAC77 /* KBSkinGlobeForeground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B63259519DAF7AB002DAC77 /* KBSkinGlobeForeground@2x.png */; };
+		7B63259819DAF7F0002DAC77 /* expression_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B63259719DAF7F0002DAC77 /* expression_delete@2x.png */; };
+		7B63259A19DAFADC002DAC77 /* enter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B63259919DAFADC002DAC77 /* enter@2x.png */; };
+		7B63259C19DAFB1B002DAC77 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B63259B19DAFB1B002DAC77 /* delete@2x.png */; };
+		7B63259E19DAFBC2002DAC77 /* backButtonLand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B63259D19DAFBC2002DAC77 /* backButtonLand@2x.png */; };
+		7BA00C9D19CB318C007764DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA00C9C19CB318C007764DE /* AppDelegate.swift */; };
+		7BA00C9F19CB318C007764DE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA00C9E19CB318C007764DE /* FirstViewController.swift */; };
+		7BA00CA119CB318C007764DE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA00CA019CB318C007764DE /* SecondViewController.swift */; };
+		7BA00CA419CB318C007764DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA00CA219CB318C007764DE /* Main.storyboard */; };
+		7BA00CA619CB318C007764DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA00CA519CB318C007764DE /* Images.xcassets */; };
+		7BA00CB219CB318D007764DE /* WubiKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA00CB119CB318D007764DE /* WubiKeyboardTests.swift */; };
+		7BA00CC419CB31A9007764DE /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA00CC319CB31A9007764DE /* KeyboardViewController.swift */; };
+		7BA00CC719CB31A9007764DE /* 五笔输入法.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7BA00CBF19CB31A7007764DE /* 五笔输入法.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7BA5320A19F3C47400025E30 /* jedwb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA5320719F3C47400025E30 /* jedwb.png */; };
+		7BA5320B19F3C47400025E30 /* jdwb(2).png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA5320819F3C47400025E30 /* jdwb(2).png */; };
+		7BA5320C19F3C47400025E30 /* jduwb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA5320919F3C47400025E30 /* jduwb.png */; };
+		7BD20B2919E737DE007AC274 /* Globe 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BD20B2719E737DE007AC274 /* Globe 4.png */; };
+		7BD20B2A19E737DE007AC274 /* Globe 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BD20B2819E737DE007AC274 /* Globe 4@2x.png */; };
+		7BE491FE19CC8AE90084EF1B /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE491FD19CC8AE90084EF1B /* TopView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B2E3ECE19F818EF00427246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B2E3EC919F818EF00427246 /* Slidden.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 652F0CCB19C2ADFF001FE3C2;
+			remoteInfo = Slidden;
+		};
+		7B2E3ED019F818EF00427246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B2E3EC919F818EF00427246 /* Slidden.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 652F0CD619C2ADFF001FE3C2;
+			remoteInfo = SliddenTests;
+		};
+		7B2E3ED219F818F700427246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B2E3EC919F818EF00427246 /* Slidden.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 652F0CCA19C2ADFF001FE3C2;
+			remoteInfo = Slidden;
+		};
+		7BA00CAC19CB318D007764DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA00C8F19CB318C007764DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA00C9619CB318C007764DE;
+			remoteInfo = WubiKeyboard;
+		};
+		7BA00CC519CB31A9007764DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA00C8F19CB318C007764DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA00CBE19CB31A7007764DE;
+			remoteInfo = "五笔输入法";
+		};
+		7BA00CC819CB31A9007764DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA00C8F19CB318C007764DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA00CBE19CB31A7007764DE;
+			remoteInfo = "五笔输入法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BA00CCD19CB31A9007764DE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7BA00CC719CB31A9007764DE /* 五笔输入法.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD20B2519E737DE007AC274 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		030982DD51E14CC1A03BFE21 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		7B05574F19F0465B009BAFCE /* WubiKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WubiKeyboard.entitlements; sourceTree = "<group>"; };
+		7B05575019F046A7009BAFCE /* 五笔输入法.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "五笔输入法.entitlements"; path = "五笔输入法/五笔输入法.entitlements"; sourceTree = "<group>"; };
+		7B0776EF19F01BA800410F65 /* KNThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNThirdViewController.h; sourceTree = "<group>"; };
+		7B0776F019F01BA800410F65 /* KNThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNThirdViewController.m; sourceTree = "<group>"; };
+		7B0776F119F01BA800410F65 /* KNThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KNThirdViewController.xib; sourceTree = "<group>"; };
+		7B0776F519F01CEE00410F65 /* UIViewController+KNSemiModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KNSemiModal.h"; sourceTree = "<group>"; };
+		7B0776F619F01CEE00410F65 /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
+		7B0776F819F01E9600410F65 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7B0776FA19F0243A00410F65 /* background_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_01.png; sourceTree = "<group>"; };
+		7B0776FB19F0243A00410F65 /* background_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_01@2x.png"; sourceTree = "<group>"; };
+		7B07770619F0353300410F65 /* KBSkinToolbar_icon_setting_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KBSkinToolbar_icon_setting_press@2x.png"; sourceTree = "<group>"; };
+		7B07770719F0353300410F65 /* KBSkinToolbar_icon_setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KBSkinToolbar_icon_setting@2x.png"; sourceTree = "<group>"; };
+		7B07770A19F0366D00410F65 /* skinTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skinTab.png; sourceTree = "<group>"; };
+		7B07770B19F0366D00410F65 /* skinTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skinTab@2x.png"; sourceTree = "<group>"; };
+		7B07770C19F0366D00410F65 /* skinTabSel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skinTabSel.png; sourceTree = "<group>"; };
+		7B07770D19F0366D00410F65 /* skinTabSel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skinTabSel@2x.png"; sourceTree = "<group>"; };
+		7B0DDAB219F3FC0000BFBD65 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		7B0DDAB419F3FE7700BFBD65 /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure.png; sourceTree = "<group>"; };
+		7B0DDAB619F4122A00BFBD65 /* 20090223_debee2b995985afbe28cvSeFhhbDgHfB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20090223_debee2b995985afbe28cvSeFhhbDgHfB.png; sourceTree = "<group>"; };
+		7B0DDAB819F4128400BFBD65 /* bg12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg12.png; sourceTree = "<group>"; };
+		7B0DDABC19F4136300BFBD65 /* bg14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg14.png; sourceTree = "<group>"; };
+		7B0F878D19EABBD90020ED55 /* Collection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Collection.xib; sourceTree = "<group>"; };
+		7B0F878F19EADA690020ED55 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		7B27502419F5665F00932E7A /* Slidden.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slidden.framework; sourceTree = "<group>"; };
+		7B2B1BC419CB436E00CD820A /* WubiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WubiView.xib; sourceTree = "<group>"; };
+		7B2B1BCA19CB481D00CD820A /* WubiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WubiView.xib; sourceTree = "<group>"; };
+		7B2B1C0219CB670F00CD820A /* Library_Keyboard_UserDictionary.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Library_Keyboard_UserDictionary.sqlite; sourceTree = "<group>"; };
+		7B2B1C0519CB672700CD820A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		7B2B1C0719CB674500CD820A /* WubiKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WubiKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		7B2B1C0819CB674500CD820A /* 五笔输入法-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "五笔输入法-Bridging-Header.h"; sourceTree = "<group>"; };
+		7B2B1C0919CB674500CD820A /* ZeeSQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZeeSQLiteHelper.h; sourceTree = "<group>"; };
+		7B2B1C0A19CB674500CD820A /* ZeeSQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZeeSQLiteHelper.m; sourceTree = "<group>"; };
+		7B2CDCE119CCA133008BD843 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		7B2CDCE319CCB084008BD843 /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		7B2E3EC919F818EF00427246 /* Slidden.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Slidden.xcodeproj; path = ../../Slidden/Slidden.xcodeproj; sourceTree = "<group>"; };
+		7B3C53CD19CDC96100C8BD04 /* recycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recycle.png; sourceTree = "<group>"; };
+		7B3C53D019CDC98800C8BD04 /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind.png; sourceTree = "<group>"; };
+		7B3C53D219CDCA0900C8BD04 /* sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync.png; sourceTree = "<group>"; };
+		7B5052DE19F3CA6F007DB42F /* bg7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg7.png; sourceTree = "<group>"; };
+		7B5052E119F3CA6F007DB42F /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
+		7B5052E319F3CA6F007DB42F /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		7B5052E419F3CA6F007DB42F /* bgfen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgfen1.png; sourceTree = "<group>"; };
+		7B5052F219F3CC19007DB42F /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		7B5052F419F3CCF1007DB42F /* bg10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg10.png; sourceTree = "<group>"; };
+		7B5052F619F3CD62007DB42F /* bg11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg11.png; sourceTree = "<group>"; };
+		7B6196CC19CEC506006EE397 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		7B6196CD19CEC506006EE397 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		7B63259519DAF7AB002DAC77 /* KBSkinGlobeForeground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KBSkinGlobeForeground@2x.png"; sourceTree = "<group>"; };
+		7B63259719DAF7F0002DAC77 /* expression_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expression_delete@2x.png"; sourceTree = "<group>"; };
+		7B63259919DAFADC002DAC77 /* enter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enter@2x.png"; sourceTree = "<group>"; };
+		7B63259B19DAFB1B002DAC77 /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
+		7B63259D19DAFBC2002DAC77 /* backButtonLand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButtonLand@2x.png"; sourceTree = "<group>"; };
+		7BA00C9719CB318C007764DE /* WubiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WubiKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA00C9B19CB318C007764DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA00C9C19CB318C007764DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BA00C9E19CB318C007764DE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		7BA00CA019CB318C007764DE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7BA00CA319CB318C007764DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BA00CA519CB318C007764DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BA00CAB19CB318D007764DE /* WubiKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WubiKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA00CB019CB318D007764DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA00CB119CB318D007764DE /* WubiKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WubiKeyboardTests.swift; sourceTree = "<group>"; };
+		7BA00CBF19CB31A7007764DE /* 五笔输入法.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "五笔输入法.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA00CC219CB31A8007764DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA00CC319CB31A9007764DE /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		7BA5320719F3C47400025E30 /* jedwb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jedwb.png; sourceTree = "<group>"; };
+		7BA5320819F3C47400025E30 /* jdwb(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jdwb(2).png"; sourceTree = "<group>"; };
+		7BA5320919F3C47400025E30 /* jduwb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jduwb.png; sourceTree = "<group>"; };
+		7BD20B2719E737DE007AC274 /* Globe 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Globe 4.png"; sourceTree = "<group>"; };
+		7BD20B2819E737DE007AC274 /* Globe 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Globe 4@2x.png"; sourceTree = "<group>"; };
+		7BE491FD19CC8AE90084EF1B /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
+		A27C4AC8EE9D45DEA9D04519 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BA00C9419CB318C007764DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0776F919F01E9600410F65 /* QuartzCore.framework in Frameworks */,
+				7B2B1C0D19CB680600CD820A /* libsqlite3.0.dylib in Frameworks */,
+				1642E71EA9914F949C5B029F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA00CA819CB318D007764DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA00CBC19CB31A7007764DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2B1C0619CB672700CD820A /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4293D3051C104202898178CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B27502419F5665F00932E7A /* Slidden.framework */,
+				7B0776F819F01E9600410F65 /* QuartzCore.framework */,
+				A27C4AC8EE9D45DEA9D04519 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B07771219F0367300410F65 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				7B5052DA19F3CA5A007DB42F /* bg */,
+				7BA5320719F3C47400025E30 /* jedwb.png */,
+				7B0DDAB419F3FE7700BFBD65 /* disclosure.png */,
+				7B0DDAB219F3FC0000BFBD65 /* Icon-60@3x.png */,
+				7BA5320819F3C47400025E30 /* jdwb(2).png */,
+				7BA5320919F3C47400025E30 /* jduwb.png */,
+				7B07770619F0353300410F65 /* KBSkinToolbar_icon_setting_press@2x.png */,
+				7B07770719F0353300410F65 /* KBSkinToolbar_icon_setting@2x.png */,
+				7B07770A19F0366D00410F65 /* skinTab.png */,
+				7B07770B19F0366D00410F65 /* skinTab@2x.png */,
+				7B07770C19F0366D00410F65 /* skinTabSel.png */,
+				7B07770D19F0366D00410F65 /* skinTabSel@2x.png */,
+				7B0776FA19F0243A00410F65 /* background_01.png */,
+				7B0776FB19F0243A00410F65 /* background_01@2x.png */,
+				7B6196CC19CEC506006EE397 /* home.png */,
+				7B6196CD19CEC506006EE397 /* message.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
+		7B2E3ECA19F818EF00427246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B2E3ECF19F818EF00427246 /* Slidden.framework */,
+				7B2E3ED119F818EF00427246 /* SliddenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B3C53CF19CDC96700C8BD04 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				7BD20B2719E737DE007AC274 /* Globe 4.png */,
+				7BD20B2819E737DE007AC274 /* Globe 4@2x.png */,
+				7B63259D19DAFBC2002DAC77 /* backButtonLand@2x.png */,
+				7B63259B19DAFB1B002DAC77 /* delete@2x.png */,
+				7B63259919DAFADC002DAC77 /* enter@2x.png */,
+				7B63259719DAF7F0002DAC77 /* expression_delete@2x.png */,
+				7B63259519DAF7AB002DAC77 /* KBSkinGlobeForeground@2x.png */,
+				7B3C53D219CDCA0900C8BD04 /* sync.png */,
+				7B3C53D019CDC98800C8BD04 /* rewind.png */,
+				7B3C53CD19CDC96100C8BD04 /* recycle.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		7B5052DA19F3CA5A007DB42F /* bg */ = {
+			isa = PBXGroup;
+			children = (
+				7B0DDAB819F4128400BFBD65 /* bg12.png */,
+				7B0DDABC19F4136300BFBD65 /* bg14.png */,
+				7B0DDAB619F4122A00BFBD65 /* 20090223_debee2b995985afbe28cvSeFhhbDgHfB.png */,
+				7B5052F619F3CD62007DB42F /* bg11.png */,
+				7B5052F419F3CCF1007DB42F /* bg10.png */,
+				7B5052F219F3CC19007DB42F /* 10.png */,
+				7B5052DE19F3CA6F007DB42F /* bg7.png */,
+				7B5052E119F3CA6F007DB42F /* bg4.png */,
+				7B5052E319F3CA6F007DB42F /* bg2.png */,
+				7B5052E419F3CA6F007DB42F /* bgfen1.png */,
+			);
+			name = bg;
+			sourceTree = "<group>";
+		};
+		7BA00C8E19CB318C007764DE = {
+			isa = PBXGroup;
+			children = (
+				7B2E3EC919F818EF00427246 /* Slidden.xcodeproj */,
+				7B05575019F046A7009BAFCE /* 五笔输入法.entitlements */,
+				7B2B1C0519CB672700CD820A /* libsqlite3.0.dylib */,
+				7BA00C9919CB318C007764DE /* WubiKeyboard */,
+				7BA00CAE19CB318D007764DE /* WubiKeyboardTests */,
+				7BA00CC019CB31A8007764DE /* WubiInputMethod */,
+				7BA00C9819CB318C007764DE /* Products */,
+				030982DD51E14CC1A03BFE21 /* Pods.xcconfig */,
+				4293D3051C104202898178CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BA00C9819CB318C007764DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BA00C9719CB318C007764DE /* WubiKeyboard.app */,
+				7BA00CAB19CB318D007764DE /* WubiKeyboardTests.xctest */,
+				7BA00CBF19CB31A7007764DE /* 五笔输入法.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BA00C9919CB318C007764DE /* WubiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7B05574F19F0465B009BAFCE /* WubiKeyboard.entitlements */,
+				7B07771219F0367300410F65 /* icon */,
+				7B0776F519F01CEE00410F65 /* UIViewController+KNSemiModal.h */,
+				7B0776F619F01CEE00410F65 /* UIViewController+KNSemiModal.m */,
+				7B0776EF19F01BA800410F65 /* KNThirdViewController.h */,
+				7B0776F019F01BA800410F65 /* KNThirdViewController.m */,
+				7B0776F119F01BA800410F65 /* KNThirdViewController.xib */,
+				7B2B1BC419CB436E00CD820A /* WubiView.xib */,
+				7BA00C9C19CB318C007764DE /* AppDelegate.swift */,
+				7BA00C9E19CB318C007764DE /* FirstViewController.swift */,
+				7BA00CA019CB318C007764DE /* SecondViewController.swift */,
+				7BA00CA219CB318C007764DE /* Main.storyboard */,
+				7BA00CA519CB318C007764DE /* Images.xcassets */,
+				7BA00C9A19CB318C007764DE /* Supporting Files */,
+			);
+			path = WubiKeyboard;
+			sourceTree = "<group>";
+		};
+		7BA00C9A19CB318C007764DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BA00C9B19CB318C007764DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BA00CAE19CB318D007764DE /* WubiKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BA00CB119CB318D007764DE /* WubiKeyboardTests.swift */,
+				7BA00CAF19CB318D007764DE /* Supporting Files */,
+			);
+			path = WubiKeyboardTests;
+			sourceTree = "<group>";
+		};
+		7BA00CAF19CB318D007764DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BA00CB019CB318D007764DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BA00CC019CB31A8007764DE /* WubiInputMethod */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C53CF19CDC96700C8BD04 /* icons */,
+				7B2B1C0919CB674500CD820A /* ZeeSQLiteHelper.h */,
+				7B2B1C0A19CB674500CD820A /* ZeeSQLiteHelper.m */,
+				7B2B1C0219CB670F00CD820A /* Library_Keyboard_UserDictionary.sqlite */,
+				7BA00CC319CB31A9007764DE /* KeyboardViewController.swift */,
+				7BA00CC119CB31A8007764DE /* Supporting Files */,
+				7B2B1BCA19CB481D00CD820A /* WubiView.xib */,
+				7B2B1C0719CB674500CD820A /* WubiKeyboard-Bridging-Header.h */,
+				7B2B1C0819CB674500CD820A /* 五笔输入法-Bridging-Header.h */,
+				7BE491FD19CC8AE90084EF1B /* TopView.xib */,
+				7B2CDCE119CCA133008BD843 /* Util.swift */,
+				7B2CDCE319CCB084008BD843 /* CollectionCell.xib */,
+				7B0F878D19EABBD90020ED55 /* Collection.xib */,
+				7B0F878F19EADA690020ED55 /* Configuration.swift */,
+			);
+			name = WubiInputMethod;
+			path = "五笔输入法";
+			sourceTree = "<group>";
+		};
+		7BA00CC119CB31A8007764DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BA00CC219CB31A8007764DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BA00C9619CB318C007764DE /* WubiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA00CB519CB318D007764DE /* Build configuration list for PBXNativeTarget "WubiKeyboard" */;
+			buildPhases = (
+				4FCD2FA059A449558BA733D1 /* Check Pods Manifest.lock */,
+				7BA00C9319CB318C007764DE /* Sources */,
+				7BA00C9419CB318C007764DE /* Frameworks */,
+				7BA00C9519CB318C007764DE /* Resources */,
+				7BA00CCD19CB31A9007764DE /* Embed App Extensions */,
+				82934819D68D4720BB0B3FD0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA00CC619CB31A9007764DE /* PBXTargetDependency */,
+				7BA00CC919CB31A9007764DE /* PBXTargetDependency */,
+			);
+			name = WubiKeyboard;
+			productName = WubiKeyboard;
+			productReference = 7BA00C9719CB318C007764DE /* WubiKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BA00CAA19CB318D007764DE /* WubiKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA00CB819CB318D007764DE /* Build configuration list for PBXNativeTarget "WubiKeyboardTests" */;
+			buildPhases = (
+				7BA00CA719CB318D007764DE /* Sources */,
+				7BA00CA819CB318D007764DE /* Frameworks */,
+				7BA00CA919CB318D007764DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA00CAD19CB318D007764DE /* PBXTargetDependency */,
+			);
+			name = WubiKeyboardTests;
+			productName = WubiKeyboardTests;
+			productReference = 7BA00CAB19CB318D007764DE /* WubiKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BA00CBE19CB31A7007764DE /* 五笔输入法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA00CCA19CB31A9007764DE /* Build configuration list for PBXNativeTarget "五笔输入法" */;
+			buildPhases = (
+				7BA00CBB19CB31A7007764DE /* Sources */,
+				7BA00CBC19CB31A7007764DE /* Frameworks */,
+				7BA00CBD19CB31A7007764DE /* Resources */,
+				7BD20B2519E737DE007AC274 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B2E3ED319F818F700427246 /* PBXTargetDependency */,
+			);
+			name = "五笔输入法";
+			productName = "五笔输入法";
+			productReference = 7BA00CBF19CB31A7007764DE /* 五笔输入法.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BA00C8F19CB318C007764DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = jeffery;
+				TargetAttributes = {
+					7BA00C9619CB318C007764DE = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = LEPB33WFFM;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					7BA00CAA19CB318D007764DE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 7BA00C9619CB318C007764DE;
+					};
+					7BA00CBE19CB31A7007764DE = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = LEPB33WFFM;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7BA00C9219CB318C007764DE /* Build configuration list for PBXProject "WubiKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BA00C8E19CB318C007764DE;
+			productRefGroup = 7BA00C9819CB318C007764DE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7B2E3ECA19F818EF00427246 /* Products */;
+					ProjectRef = 7B2E3EC919F818EF00427246 /* Slidden.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7BA00C9619CB318C007764DE /* WubiKeyboard */,
+				7BA00CAA19CB318D007764DE /* WubiKeyboardTests */,
+				7BA00CBE19CB31A7007764DE /* 五笔输入法 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7B2E3ECF19F818EF00427246 /* Slidden.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Slidden.framework;
+			remoteRef = 7B2E3ECE19F818EF00427246 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B2E3ED119F818EF00427246 /* SliddenTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SliddenTests.xctest;
+			remoteRef = 7B2E3ED019F818EF00427246 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BA00C9519CB318C007764DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA5320C19F3C47400025E30 /* jduwb.png in Resources */,
+				7B5052EF19F3CA6F007DB42F /* bgfen1.png in Resources */,
+				7B07770E19F0366D00410F65 /* skinTab.png in Resources */,
+				7BD20B2A19E737DE007AC274 /* Globe 4@2x.png in Resources */,
+				7B0DDAB319F3FC0000BFBD65 /* Icon-60@3x.png in Resources */,
+				7BA00CA419CB318C007764DE /* Main.storyboard in Resources */,
+				7BA5320A19F3C47400025E30 /* jedwb.png in Resources */,
+				7BD20B2919E737DE007AC274 /* Globe 4.png in Resources */,
+				7B07770819F0353300410F65 /* KBSkinToolbar_icon_setting_press@2x.png in Resources */,
+				7B0DDABD19F4136300BFBD65 /* bg14.png in Resources */,
+				7B5052F719F3CD62007DB42F /* bg11.png in Resources */,
+				7B0DDAB919F4128400BFBD65 /* bg12.png in Resources */,
+				7B0DDAB519F3FE7700BFBD65 /* disclosure.png in Resources */,
+				7B6196CE19CEC506006EE397 /* home.png in Resources */,
+				7B07770F19F0366D00410F65 /* skinTab@2x.png in Resources */,
+				7B5052F319F3CC19007DB42F /* 10.png in Resources */,
+				7B5052E919F3CA6F007DB42F /* bg7.png in Resources */,
+				7B07770919F0353300410F65 /* KBSkinToolbar_icon_setting@2x.png in Resources */,
+				7B07771019F0366D00410F65 /* skinTabSel.png in Resources */,
+				7BA00CA619CB318C007764DE /* Images.xcassets in Resources */,
+				7B5052F519F3CCF1007DB42F /* bg10.png in Resources */,
+				7B5052EE19F3CA6F007DB42F /* bg2.png in Resources */,
+				7B5052EC19F3CA6F007DB42F /* bg4.png in Resources */,
+				7B2B1BC519CB436E00CD820A /* WubiView.xib in Resources */,
+				7B0776F319F01BA800410F65 /* KNThirdViewController.xib in Resources */,
+				7B2B1C0319CB670F00CD820A /* Library_Keyboard_UserDictionary.sqlite in Resources */,
+				7BA5320B19F3C47400025E30 /* jdwb(2).png in Resources */,
+				7B0776FD19F0243A00410F65 /* background_01@2x.png in Resources */,
+				7B0776FC19F0243A00410F65 /* background_01.png in Resources */,
+				7B07771119F0366D00410F65 /* skinTabSel@2x.png in Resources */,
+				7B6196CF19CEC506006EE397 /* message.png in Resources */,
+				7B0DDAB719F4122A00BFBD65 /* 20090223_debee2b995985afbe28cvSeFhhbDgHfB.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA00CA919CB318D007764DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA00CBD19CB31A7007764DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE491FE19CC8AE90084EF1B /* TopView.xib in Resources */,
+				7B63259C19DAFB1B002DAC77 /* delete@2x.png in Resources */,
+				7B63259A19DAFADC002DAC77 /* enter@2x.png in Resources */,
+				7B0F878E19EABBD90020ED55 /* Collection.xib in Resources */,
+				7B54B12A19CF1FD40050DCFB /* Images.xcassets in Resources */,
+				7B3C53CE19CDC96100C8BD04 /* recycle.png in Resources */,
+				7B2B1BCB19CB481D00CD820A /* WubiView.xib in Resources */,
+				7B2B1C0419CB670F00CD820A /* Library_Keyboard_UserDictionary.sqlite in Resources */,
+				7B3C53D319CDCA0900C8BD04 /* sync.png in Resources */,
+				7B63259E19DAFBC2002DAC77 /* backButtonLand@2x.png in Resources */,
+				7B63259619DAF7AB002DAC77 /* KBSkinGlobeForeground@2x.png in Resources */,
+				7B63259819DAF7F0002DAC77 /* expression_delete@2x.png in Resources */,
+				7B3C53D119CDC98800C8BD04 /* rewind.png in Resources */,
+				7B2CDCE419CCB084008BD843 /* CollectionCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FCD2FA059A449558BA733D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82934819D68D4720BB0B3FD0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BA00C9319CB318C007764DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA00CA119CB318C007764DE /* SecondViewController.swift in Sources */,
+				7B0776F719F01CEE00410F65 /* UIViewController+KNSemiModal.m in Sources */,
+				7BA00C9D19CB318C007764DE /* AppDelegate.swift in Sources */,
+				7B2B1C0B19CB674500CD820A /* ZeeSQLiteHelper.m in Sources */,
+				7BA00C9F19CB318C007764DE /* FirstViewController.swift in Sources */,
+				7B0776F219F01BA800410F65 /* KNThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA00CA719CB318D007764DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA00CB219CB318D007764DE /* WubiKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA00CBB19CB31A7007764DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2B1C0C19CB674500CD820A /* ZeeSQLiteHelper.m in Sources */,
+				7B2CDCE219CCA133008BD843 /* Util.swift in Sources */,
+				7B0F879019EADA690020ED55 /* Configuration.swift in Sources */,
+				7BA00CC419CB31A9007764DE /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B2E3ED319F818F700427246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Slidden;
+			targetProxy = 7B2E3ED219F818F700427246 /* PBXContainerItemProxy */;
+		};
+		7BA00CAD19CB318D007764DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA00C9619CB318C007764DE /* WubiKeyboard */;
+			targetProxy = 7BA00CAC19CB318D007764DE /* PBXContainerItemProxy */;
+		};
+		7BA00CC619CB31A9007764DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA00CBE19CB31A7007764DE /* 五笔输入法 */;
+			targetProxy = 7BA00CC519CB31A9007764DE /* PBXContainerItemProxy */;
+		};
+		7BA00CC919CB31A9007764DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA00CBE19CB31A7007764DE /* 五笔输入法 */;
+			targetProxy = 7BA00CC819CB31A9007764DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BA00CA219CB318C007764DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA00CA319CB318C007764DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BA00CB319CB318D007764DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BA00CB419CB318D007764DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: jia jinping (LEPB33WFFM)";
+				COPY_PHASE_STRIP = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BA00CB619CB318D007764DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030982DD51E14CC1A03BFE21 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WubiKeyboard/WubiKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WubiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "五笔输入法/WubiKeyboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7BA00CB719CB318D007764DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030982DD51E14CC1A03BFE21 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WubiKeyboard/WubiKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WubiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "五笔输入法/WubiKeyboard-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7BA00CB919CB318D007764DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WubiKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WubiKeyboard.app/WubiKeyboard";
+			};
+			name = Debug;
+		};
+		7BA00CBA19CB318D007764DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WubiKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WubiKeyboard.app/WubiKeyboard";
+			};
+			name = Release;
+		};
+		7BA00CCB19CB31A9007764DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "五笔输入法/五笔输入法.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/五笔输入法",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/WubiKeyboard-cmjmonjjkhhuzkbzobsebyuclmnx/Build/Products/Debug-iphoneos",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "五笔输入法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "五笔输入法/五笔输入法-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BA00CCC19CB31A9007764DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "五笔输入法/五笔输入法.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/五笔输入法",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/WubiKeyboard-cmjmonjjkhhuzkbzobsebyuclmnx/Build/Products/Debug-iphoneos",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "五笔输入法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "五笔输入法/五笔输入法-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BA00C9219CB318C007764DE /* Build configuration list for PBXProject "WubiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA00CB319CB318D007764DE /* Debug */,
+				7BA00CB419CB318D007764DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA00CB519CB318D007764DE /* Build configuration list for PBXNativeTarget "WubiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA00CB619CB318D007764DE /* Debug */,
+				7BA00CB719CB318D007764DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA00CB819CB318D007764DE /* Build configuration list for PBXNativeTarget "WubiKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA00CB919CB318D007764DE /* Debug */,
+				7BA00CBA19CB318D007764DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA00CCA19CB31A9007764DE /* Build configuration list for PBXNativeTarget "五笔输入法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA00CCB19CB31A9007764DE /* Debug */,
+				7BA00CCC19CB31A9007764DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BA00C8F19CB318C007764DE /* Project object */;
+}

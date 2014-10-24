@@ -1,0 +1,2 @@
+platform :ios, '7.0'
+pod 'MPSkewed', :git => 'https://github.com/MP0w/MPSkewed.git'

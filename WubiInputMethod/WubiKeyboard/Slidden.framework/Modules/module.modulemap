@@ -1,0 +1,10 @@
+framework module Slidden {
+  umbrella header "Slidden.h"
+
+  export *
+  module * { export * }
+}
+
+module Slidden.Swift {
+    header "Slidden-Swift.h"
+}
